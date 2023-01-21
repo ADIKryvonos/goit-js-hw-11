@@ -1,0 +1,53 @@
+body {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.search-form input:hover,
+.search-form input:focus {
+  cursor: pointer;
+}
+
+.search-form button:hover,
+.search-form button:focus {
+  cursor: pointer;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 10px;
+}
+
+/* .photo-card {
+  flex-basis: calc((100% -30px) / 4);
+} */
+.info {
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #e0ebeb;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: auto;
+  padding-right: auto;
+}
